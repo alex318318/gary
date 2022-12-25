@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="https://book.niceinfos.com/frontend/assets/html_contact_form/api.php">
+        <div>
+            <label for="account">帳號</label>
+            <input type="text" name="account" value="" placeholder="請輸入帳號">
+        </div>
+        <div>
+            <label for="password">密碼</label>
+            <input type="password" name="password" placeholder="請輸入密碼">
+        </div>
+        <div>
+            <label for="number">認證</label>
+            <input type="number" name="auth" placeholder="請輸入驗證數字">
+        </div>
+        <div>
+            <label for="phone">家電或手機</label>
+            <input type="tel" name="phone" placeholder="請輸入家電或手機號碼">
+        </div>
+        <div>
+            <label for="color">幸運色</label>
+            <input type="color" name="color" placeholder="請選擇顏色">
+        </div>
+        <div>
+            <label for="date">出生年月日</label>
+            <input type="date" name="date" placeholder="請選擇日期">
+        </div>
+        <div>
+            <label for="time">認證時間</label>
+            <input type="time" name="time" placeholder="請選擇時間">
+        </div>
+        <div>
+            <label for="county">住家地址</label>
+            <select name="county[]">
+                <option value="">請選擇地區</option>
+                <option value="tp">台北市</option>
+                <option value="ty">桃園市</option>
+                <option value="cd">新竹縣</option>
+                <option value="tc">台中市</option>
+                <option value="ml">苗栗縣</option>
+                <option value="nt">南投縣</option>
+                <option value="tl">彰化縣</option>
+                <option value="ul">雲林縣</option>
+                <option value="tn">台南市</option>
+                <option value="pt">屏東縣</option>
+                <option value="il">宜蘭縣</option>
+                <option value="hl">花蓮縣</option>
+                <option value="td">台東縣</option>
+                <option value="pl">澎湖縣</option>
+                <option >高雄</option>
+            </select>
+        </div>
+        <div>
+            <label for="">留言或意見</label>
+            <textarea name="" id="remark" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">登入</button>
+            <button type="button">預覽</button>
+        </div>
+        </form>
+</body>
+</html>
