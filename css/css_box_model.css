@@ -5,7 +5,7 @@
     background: black;
     background-size: cover;
     background-image: url(../images/conan.png);
-    text-align: center;
+    
     margin: auto;
     border: 2px solid green;
     padding: 10px;
@@ -25,14 +25,18 @@
     background: #3ba7e6;
     color: rebeccapurple;
     padding: 10px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .button {
     background: #ba4ec4;
     color: #ffffff;
-    display: inline-block;
+    text-align: center;
     text-align: center;
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 5px;
+    margin-top: 20px 10px;
+   
 }
