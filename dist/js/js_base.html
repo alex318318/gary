@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let firstName = 'Lin'
+    let lastName = 'David';
+    let fullName = firstName + '' + lastName;
+    fullName = `${firstName} ${lastName}​`;
+    console.log(fullName);
+
+
+    let n1 = 1;
+    let n2 = 1.25
+    let n3 = n1 + n2;
+    let n4 = '100';
+    let n5 = n1 + parseInt(n4, 10);
+    console.log(n5);
+
+    console.log(typeof n1.toString());
+    console.log(typeof n5);
+
+    let con = -1;
+
+    if (con) {
+        console.log(`$(con) is true`)
+    }
+
+    let student = [10, 20, 30];
+
+    student.push(40);
+
+    console.log(students);
+
+    console.log(student[2]);
+
+    let scope = sutdent.join(',');
+
+    console.log(scope, typeof scope, typeof students);
+
+    console.log(students.indexof(200));
+
+    let index = students.indexof(10);
+
+    console.log(index);
+
+    students.push({
+        name: `John Chen`;
+        scope: 80
+    });
+
+    students.forEach((student, index)) = > {
+        console.log(`index ${index}: ${student.name} scope is ${student.scope}`);
+    })
+</script>
+
+<script src="js/js_base.js"></script>
+
+</html>
